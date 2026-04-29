@@ -1,0 +1,165 @@
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Securities and Exchange Commission</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+
+ <div id="services" class="services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s" >
+            <h4 style="margin-top:25px">Information and Communications Technology Department</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p><b><i>Please feel free to reach out to the department most relevant to your inquiry. Our team will respond as promptly as possible to resolve your issue or provide the assistance you need.</b></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+           <div class="icon"></div>
+            <h4>Simple Assistance to the various SEC Online Systems</h4>
+            <p></p>
+            <div class="text-button" style>
+              <a style="color:#0dd990" href="/open.php?topicId=3">Create ticket <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Request for digital plain copy of Corporate Documents via eSEARCH facility</h4>
+            <p></p>
+            <div class="text-button">
+              <a style="color:#0dd990" href="#">Create Ticket <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Request for plain and/or authenticated copies of documents</h4>
+            <p></p>
+            <div class="text-button">
+              <a style="color:#0dd990" href="#">Create Ticket <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Receiving Walk-in of correspondence and other documents</h4>
+            <p></p>
+            <div class="text-button">
+              <a style="color:#0dd990" href="#">Create Ticket <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+//Second Row
+ <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+           <div class="icon"></div>
+            <h4>Review and Verification of Enrolled Account in Electronic Filing and Submission Tool (eFast)</h4>
+            <p></p>
+            <div class="text-button" style>
+              <a style="color:#0dd990" href="/open.php?topicId=3">Create ticket <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Submission, Acceptance of Corporate Reportorial Requirements and issuance of Quick Response (QR) Code</h4>
+            <p></p>
+            <div class="text-button">
+              <a style="color:#0dd990" href="#">Create Ticket <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Submission, Acceptance of Secondary reports, and issuance of Acknowledgement of email</h4>
+            <p></p>
+            <div class="text-button">
+              <a style="color:#0dd990" href="#">Create Ticket <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Request by an enrolled government agency via SCORE facility for digital plain copy/Copies of Corporate
+Documents</h4>
+            <p></p>
+            <div class="text-button">
+              <a style="color:#0dd990" href="#">Create Ticket <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+//Third Row
+ <div class="container">
+      <div class="row">
+     
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Highly Technical Request for Listing</h4>
+            <p></p>
+            <div class="text-button">
+              <a style="color:#0dd990" href="#">Create Ticket <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Highly Technical Assistance to the various SEC Online Systems</h4>
+            <p></p>
+            <div class="text-button">
+              <a style="color:#0dd990" href="#">Create Ticket <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Complex Request for Listing</h4>
+            <p></p>
+            <div class="text-button">
+              <a style="color:#0dd990" href="#">Create Ticket <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+

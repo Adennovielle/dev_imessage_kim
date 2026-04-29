@@ -1,0 +1,104 @@
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Securities and Exchange Commission</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+<?php
+$dpt = $_GET['dpt'] ?? '';
+if ($dpt == 'ictd'){
+	$title = 'Information and Communication Technology Department';
+	$dep_id=[6,7,8,10];
+}else{
+	$title = 'Securities and Exchange Commission';
+	$dep_id ='[0]';
+
+}
+?>
+ <div id="services" class="services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s" >
+            <h4 style="margin-top:25px"><?= $title ?></h4>
+            <img src="assets/images/heading-line-dec.png" alt="" style="-25px">
+            <p><b><i>Please feel free to reach out to the department most relevant to your inquiry. Our team will respond as promptly as possible to resolve your issue or provide the assistance you need.</b></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <?php
+if (!defined('OSTCLIENTINC')) die('Access Denied!');
+
+// Department IDs you want to include
+$department_ids = $dep_id; // example: ICTD, MIS, HR
+
+// Build the IN() part safely
+$in = implode(',', array_map('intval', $department_ids));
+
+// Run SQL — note: use ost_help_topic and check isactive=1 instead of flags=2
+$sql = "
+    SELECT t.topic_id, t.topic
+    FROM ost_help_topic t
+    LEFT JOIN ost_department d ON t.dept_id = d.id
+    WHERE t.dept_id IN ($in) AND t.flags = 2
+    ORDER BY t.dept_id, t.topic
+";
+
+//echo $sql;
+$res = db_query($sql);
+$topics_by_dept = [];
+
+// Fill the array properly
+while ($row = db_fetch_array($res)) {
+    $dept_name = $row['dept_name'] ?: '';
+    $topics_by_dept[$dept_name][] = $row;
+}
+
+// Render
+if (!empty($topics_by_dept)) {
+    foreach ($topics_by_dept as $dept_name => $topics) {
+        echo '<h3 style="margin-top:30px;">' . Format::htmlchars($dept_name) . '</h3>';
+        echo '<div class="row">';
+        foreach ($topics as $topic) {
+            $topic_id = $topic['topic_id'];
+            $topic_name = Format::htmlchars($topic['topic']);
+            echo '
+            <div class="col-lg-3">
+              <div class="service-item second-service">
+                <div class="icon"></div>
+                <h4>' . $topic_name . '</h4>
+                <div class="text-button">
+                  <a style="color:#0dd990" href="/open.php?topicId=' . $topic_id . '">
+                    Create Ticket <i class="fa fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>';
+        }
+        echo '</div>';
+    }
+} else {
+    echo '<p>No help topics found for the selected departments.</p>';
+}
+
+?>
+  </div>
+
+
