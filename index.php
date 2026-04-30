@@ -181,37 +181,49 @@ https://templatemo.com/tm-570-chain-app-dev
     </section>
 </div>
 
-  <div class=" wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
-    <div class="container" id="client-indexphp">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="row">
-            <div class="col-lg-6 align-self-center">
-              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                <div class="row">
-                  <div class="col-lg-12">
+  <div id="client-index-hero">
+    <div class="container" id="left-content">
+      <div>
+        <div >
+          <div >
+            <div >
+              <div >
+                <div >
+                  <div >
+                <img src="assets/images/slider-dec.png" alt="">
+              </div>
+                  <div id="hero-text">
                     <h2>Your voice matters to us!</h2>
-                    <p>Whether you're sharing feedback, reporting an issue, or submitting a complaint, we’re here to listen and help resolve it quickly. We take every ticket seriously and are committed to improving your experience.</p>
+                    <p>Whether you're sharing feedback, reporting an issue, or submitting a complaint, we’re here to <br> listen and help resolve it quickly. We take every ticket seriously and are committed to improving <br> your experience.</p>
                   </div>
-                  <div class="col-lg-12">
-                    <div class="white-button first-button scroll-to-section">
-                      <a href="<?php echo ROOT_PATH; ?>open.php">Open a New Ticket <i class="fas fa-bolt"></i></a>
+                  <div id="hero-buttons">
+                    <div >
+                      <a href="<?php echo ROOT_PATH; ?>open.php">Open a New Ticket </a>
                     </div>
-                    <div class="white-button scroll-to-section">
-                      <a href="<?php echo ROOT_PATH; ?>tickets.php">Check Ticket Status <i class="fas fa-star"></i></a>
+                    <div >
+                      <a href="<?php echo ROOT_PATH; ?>tickets.php">Check Ticket Status </i></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/slider-dec.png" alt="">
-              </div>
+            <div >
+              
             </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <div id="right-content">
+<div>
+  <img src="assets/images/sec-logo.png" alt="">
+</div>
+
+<div id="text">
+  <h2>Welcome to iMessage</h2>
+  <p><b>iMessage</b> is a secure messaging platform designed for communication within the SEC <br> ecosystem.</p>
+</div>
     </div>
   </div>
 
@@ -219,16 +231,16 @@ https://templatemo.com/tm-570-chain-app-dev
 
   
 
-  <footer id="newsletter">
+  <div id="footer">
     <div class="container">
-      <div class="row">
-         <div class="col-lg-3">
-          <div class="footer-widget">
+      <div >
+         <div >
+          <div>
             <img src="assets/images/gov-ph-seal-footer.png" alt="">
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="footer-widget">
+        <div >
+          <div>
             <h4>The SEC Headquarters</h4>
             <p>7907 Makati Avenue, Salcedo Village, Bel-Air, Makati City, 1209</p>
             <p>(02) 5322-7696</p>
@@ -236,8 +248,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
        
-        <div class="col-lg-3">
-          <div class="footer-widget">
+        <div >
+          <div >
             <h4>Online Services</h4>
             <ul>
               <li><a href="https://www.sec.gov.ph/sec-esecure/">eSECURE</a></li>
@@ -257,12 +269,10 @@ https://templatemo.com/tm-570-chain-app-dev
             </ul>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="footer-widget">
+        <div >
+          <div >
             <h4>About Our Company</h4>
-            <div class="logo">
-              <img src="assets/images/logo-white.png" alt="">
-            </div>
+            
             <ul>
             <li><a href="https://www.sec.gov.ph/">SEC Website</a></li>
               <li><a href="https://www.gov.ph/">GOVPH</a></li>
@@ -270,14 +280,14 @@ https://templatemo.com/tm-570-chain-app-dev
             </ul>
           </div>
         </div>
-        <div class="col-lg-12">
+        <div >
           <div class="copyright-text">
             <p>Copyright © 2025 Securities and Exchange Commission. All Rights Reserved. 
           </div>
         </div>
       </div>
     </div>
-  </footer>
+  </div>
 
 
   <!-- Scripts -->
