@@ -54,6 +54,7 @@ https://templatemo.com/tm-570-chain-app-dev
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+    <link rel="stylesheet" href="assets/css/adolf-css.css">
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
 
@@ -215,79 +216,65 @@ https://templatemo.com/tm-570-chain-app-dev
       </div>
     </div>
 
-    <div id="right-content">
-<div>
-  <img src="assets/images/sec-logo.png" alt="">
+    <div id="right-content" >
+      <div class="">
+         <div >
+        <img src="assets/images/sec-logo.png" alt="">
+      </div>
+
+    <div id="text">
+      <h2>Welcome to iMessage</h2>
+      <p><b class="bold-text">iMessage</b> is a secure messaging platform designed for communication within the SEC <br> ecosystem.</p>
+    </div>
+    <hr>
+<div class="login-btn-box">
+<button id="login-btn">LOGIN WITH ESECURE <img src="assets/images/login.png" alt=""></button>
 </div>
 
-<div id="text">
-  <h2>Welcome to iMessage</h2>
-  <p><b>iMessage</b> is a secure messaging platform designed for communication within the SEC <br> ecosystem.</p>
-</div>
+      </div>
+     
     </div>
   </div>
 
    </div>
-
   
 
   <div id="footer">
-    <div class="container">
-      <div >
-         <div >
-          <div>
-            <img src="assets/images/gov-ph-seal-footer.png" alt="">
+    <div class="grid-box">
+           <div class="gov-seal-img-box col" >
+              <img src="assets/images/gov-ph-seal-footer.png" alt="">
           </div>
-        </div>
-        <div >
-          <div>
-            <h4>The SEC Headquarters</h4>
-            <p>7907 Makati Avenue, Salcedo Village, Bel-Air, Makati City, 1209</p>
-            <p>(02) 5322-7696</p>
-            <p><a href="#"></a></p>
+          <div class=" col" >
+              <h6>Republic of the Philippines</h6>
+              <p>All content is in the public domain unless <br>
+otherwise stated.</p>
           </div>
-        </div>
-       
-        <div >
-          <div >
-            <h4>Online Services</h4>
-            <ul>
+          <div class=" col" >
+              <h6>About SEC-EASE</h6>
+              <p>Exceptional and Alternative Submissions Environment (EASE)</p>
+               <ul>
+                  <li><a href="https://www.sec.gov.ph/">SEC Website</a></li>
+                  <li><a href="https://www.gov.ph/">GOVPH</a></li>
+                  <li><a href="#">Open Data Portal</a></li>
+                  <li><a href="https://www.officialgazette.gov.ph/">Official Gazette</a></li>
+              </ul>
+          </div>
+          <div class="col" >
+              <h6>SEC Online Services</h6>
+              <ul>
               <li><a href="https://www.sec.gov.ph/sec-esecure/">eSECURE</a></li>
               <li><a href="https://esparc.sec.gov.ph/">eSPARC</a></li>
-              <li><a href="https://eramp.sec.gov.ph/">eRAMP</a></li>
-              <li><a href="https://eamend.sec.gov.ph/login">eAMEND</a></li>
-              <li><a href="https://espaysec.sec.gov.ph/">eSPAYSEC</a></li>
-              
-            </ul>
-            <ul>
-            <li><a href="https://esearch.sec.gov.ph/">eSEARCH</a></li>
-              <li><a href="https://portal.sec.gov.ph/">API Maketplace</a></li>
-              <li><a href="https://checkwithsec.sec.gov.ph/">Chec with SEC</a></li>
-              <li><a href="https://efast.sec.gov.ph">SEC Electronic Filing and Submission Tool</a></li>
-              <li><a href="https://mc28.sec.gov.ph">MC28 Submission Portal</a></li>
-              <li><a href="https://eramp.sec.gov.ph/">eRAMP</a></li>
+              <li><a href="https://secexpress.ph">eFAST</a></li>
+              <li><a href="https://esearch.sec.gov.ph/user/login">eSEARCH</a></li>
+              <li><a href="https://espaysec.sec.gov.ph/payment-portal/home">eSPAYSEC</a></li>
+              <li><a href="https://mc28.sec.gov.ph/mc28-list-temp/SecuritiesandExchangeCommission">MC28 Submission</a></li>
             </ul>
           </div>
         </div>
-        <div >
-          <div >
-            <h4>About Our Company</h4>
-            
-            <ul>
-            <li><a href="https://www.sec.gov.ph/">SEC Website</a></li>
-              <li><a href="https://www.gov.ph/">GOVPH</a></li>
-              <li><a href="https://www.officialgazette.gov.ph/">Official Gazette</a></li>
-            </ul>
-          </div>
-        </div>
-        <div >
-          <div class="copyright-text">
-            <p>Copyright © 2025 Securities and Exchange Commission. All Rights Reserved. 
-          </div>
-        </div>
+      <div class="col copyright">
+        Securities and Exchange Commission @ 2026
       </div>
     </div>
-  </div>
 
 
   <!-- Scripts -->

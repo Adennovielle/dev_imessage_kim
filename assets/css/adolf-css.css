@@ -1,0 +1,219 @@
+/* CUSTOM CSS */
+:root {
+  --sec-color: rgb(1, 71, 47);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#client-index-hero {
+  /* border: 4px solid rgb(255, 0, 0); */
+  display: flex;
+  min-height: 90vh;
+}
+#client-index-hero button:hover {
+  opacity: 0.75;
+}
+#client-index-hero button {
+  border: none;
+  outline: none;
+}
+#client-index-hero #left-content {
+  /* border: 4px solid black; */
+  background:
+    linear-gradient(rgba(25, 136, 84, 0.9), rgba(25, 136, 85, 0.9)),
+    url(../images/login-overlay.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  flex: 1;
+  align-items: start;
+  justify-content: start;
+  padding: 0 70px;
+}
+#client-index-hero #left-content #hero-text {
+  border-top: 2px solid rgba(255, 255, 255, 0.43);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.43);
+  margin: 30px 0px;
+  padding: 10px 0;
+}
+@media (max-width: 1470px) {
+  #client-index-hero h2 {
+    font-size: 24px;
+  }
+  #client-index-hero #left-content p {
+    font-size: 13px;
+  }
+}
+
+#client-index-hero #left-content p,
+#client-index-hero h2 {
+  color: white;
+}
+#client-index-hero #left-content img {
+  width: 450px;
+  height: auto;
+  /* border: 4px solid black; */
+  margin-top: 70px;
+}
+@media (max-width: 1300px) {
+  #client-index-hero #left-content img {
+    width: 350px;
+  }
+  #client-index-hero h2 {
+    font-size: 20px;
+  }
+  #client-index-hero #left-content p {
+    font-size: 12px;
+  }
+}
+#client-index-hero #left-content #hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+#client-index-hero #left-content a {
+  background-color: rgb(255, 192, 9);
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+#client-index-hero #left-content a:hover {
+  opacity: 0.75;
+}
+
+#client-index-hero #right-content {
+  /* border: 4px solid rgb(13, 0, 255); */
+  flex: 1;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-image: url("../images/overlay.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 50px;
+}
+#client-index-hero #right-content img {
+  width: 200px;
+  margin-bottom: 25px;
+  margin-top: 150px;
+}
+#client-index-hero #right-content #text {
+  border: 2px solid rgb(1, 71, 47);
+  border-radius: 10px;
+  padding: 20px 40px;
+  margin-bottom: 40px;
+}
+
+#client-index-hero #right-content hr {
+  border: none;
+  height: 2px;
+  background-color: #333;
+}
+#client-index-hero #right-content h2 {
+  color: var(--sec-color);
+  font-weight: bolder;
+}
+#client-index-hero #right-content p {
+  color: black;
+}
+@media (max-width: 1470px) {
+  #client-index-hero #right-content h2 {
+    font-size: 24px;
+  }
+  #client-index-hero #right-content p {
+    font-size: 14px;
+  }
+}
+#client-index-hero #right-content .bold-text {
+  font-weight: bold;
+}
+#client-index-hero #right-content .login-btn-box {
+  /* border: 4px solid rgb(190, 5, 5); */
+  text-align: right;
+}
+#client-index-hero #right-content #login-btn {
+  background-color: rgb(1, 71, 47);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: small;
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 15px;
+  margin-right: auto !important;
+  /* border: 4px solid rgb(190, 5, 5); */
+}
+#client-index-hero #login-btn img {
+  width: 25px;
+  height: 20px;
+  display: inline-block;
+  margin: 0;
+  /* border: 4px solid rgb(5, 187, 190); */
+}
+#footer {
+  /* border: 4px solid rgb(190, 156, 5); */
+  background-color: rgb(33, 36, 41);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 40px 0 0 0;
+}
+#footer .grid-box {
+  /* border: 4px solid rgb(33, 5, 190); */
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 350px 350px 500px 300px;
+}
+
+#footer .col {
+  /* border: 4px solid rgb(5, 190, 171); */
+}
+#footer .col ul {
+  margin-top: 20px;
+  /* border: 4px solid rgb(190, 153, 5); */
+}
+#footer .col p {
+  color: rgba(255, 255, 255, 0.893);
+  font-weight: bold;
+}
+#footer li a {
+  color: rgba(255, 255, 255, 0.348);
+  font-size: 14px;
+}
+#footer li a:hover {
+  color: rgba(255, 255, 255, 0.493);
+}
+#footer .gov-seal-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer .gov-seal-img-box img {
+  display: block;
+  opacity: 0.5;
+  width: 190px;
+}
+.copyright {
+  background-color: rgb(108, 117, 126);
+  color: white;
+  padding: 8px 0;
+  padding-left: 80px;
+  margin-top: 20px;
+}
+/* END OF CUSTOM CSS */

@@ -13,8 +13,9 @@
 
     vim: expandtab sw=4 ts=4 sts=4:
 **********************************************************************/
-require('client.inc.php');
-require('popup.php');
+// require('client.inc.php');
+// require('popup.php');
+// echo "This is open.php";
 define('SOURCE','Web'); //Ticket source.
 $ticket = null;
 $errors=array();
