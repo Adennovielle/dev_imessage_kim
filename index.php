@@ -183,16 +183,16 @@ https://templatemo.com/tm-570-chain-app-dev
 </div>
 
   <div id="client-index-hero">
-    <div class="container" id="left-content">
+    <div id="left-content">
       <div>
         <div >
           <div >
             <div >
               <div >
-                <div >
-                  <div >
-                <img src="assets/images/slider-dec.png" alt="">
-              </div>
+                <div class="left-content-box">
+                  <div class="img-box">
+                     <img src="assets/images/slider-dec.png" alt="">
+                 </div>
                   <div id="hero-text">
                     <h2>Your voice matters to us!</h2>
                     <p>Whether you're sharing feedback, reporting an issue, or submitting a complaint, we’re here to <br> listen and help resolve it quickly. We take every ticket seriously and are committed to improving <br> your experience.</p>
@@ -217,25 +217,21 @@ https://templatemo.com/tm-570-chain-app-dev
     </div>
 
     <div id="right-content" >
-      <div class="">
+      <div class="right-content-box">
          <div >
-        <img src="assets/images/sec-logo.png" alt="">
+            <img src="assets/images/sec-logo.png" alt="">
+        </div>
+
+        <div id="text" class="border-3">
+          <h2>Welcome to iMessage</h2>
+          <p><b class="bold-text">iMessage</b> is a secure messaging platform designed for communication within the SEC <br> ecosystem.</p>
+        </div>
+        <hr>
+          <div class="login-btn-box">
+          <button id="login-btn">LOGIN WITH ESECURE <img src="assets/images/login.png" alt=""></button>
+          </div>
       </div>
-
-    <div id="text">
-      <h2>Welcome to iMessage</h2>
-      <p><b class="bold-text">iMessage</b> is a secure messaging platform designed for communication within the SEC <br> ecosystem.</p>
     </div>
-    <hr>
-<div class="login-btn-box">
-<button id="login-btn">LOGIN WITH ESECURE <img src="assets/images/login.png" alt=""></button>
-</div>
-
-      </div>
-     
-    </div>
-  </div>
-
    </div>
   
 
@@ -274,6 +270,7 @@ otherwise stated.</p>
       <div class="col copyright">
         Securities and Exchange Commission @ 2026
       </div>
+
     </div>
 
 

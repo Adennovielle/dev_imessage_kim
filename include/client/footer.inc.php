@@ -1,3 +1,5 @@
+<?php 
+/* 
 </div>
  <footer id="newsletter">
     <div class="container">
@@ -82,3 +84,76 @@ if (($lang = Internationalization::getCurrentLanguage()) && $lang != 'en_US') { 
 </script>
 </body>
 </html>
+
+*/
+// echo "This is footer.inc.php";
+
+?> 
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Securities and Exchange Commission</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!--
+
+TemplateMo 570 Chain App Dev
+
+https://templatemo.com/tm-570-chain-app-dev
+
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+    <link rel="stylesheet" href="assets/css/adolf-css.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+  </head>
+
+<div id="footer">
+    <div class="grid-box">
+           <div class="gov-seal-img-box col" >
+              <img src="assets/images/gov-ph-seal-footer.png" alt="">
+          </div>
+          <div class=" col" >
+              <h6>Republic of the Philippines</h6>
+              <p>All content is in the public domain unless <br>
+otherwise stated.</p>
+          </div>
+          <div class=" col" >
+              <h6>About SEC-EASE</h6>
+              <p>Exceptional and Alternative Submissions Environment (EASE)</p>
+               <ul>
+                  <li><a href="https://www.sec.gov.ph/">SEC Website</a></li>
+                  <li><a href="https://www.gov.ph/">GOVPH</a></li>
+                  <li><a href="#">Open Data Portal</a></li>
+                  <li><a href="https://www.officialgazette.gov.ph/">Official Gazette</a></li>
+              </ul>
+          </div>
+          <div class="col" >
+              <h6>SEC Online Services</h6>
+              <ul>
+              <li><a href="https://www.sec.gov.ph/sec-esecure/">eSECURE</a></li>
+              <li><a href="https://esparc.sec.gov.ph/">eSPARC</a></li>
+              <li><a href="https://secexpress.ph">eFAST</a></li>
+              <li><a href="https://esearch.sec.gov.ph/user/login">eSEARCH</a></li>
+              <li><a href="https://espaysec.sec.gov.ph/payment-portal/home">eSPAYSEC</a></li>
+              <li><a href="https://mc28.sec.gov.ph/mc28-list-temp/SecuritiesandExchangeCommission">MC28 Submission</a></li>
+            </ul>
+          </div>
+        </div>
+      <div class="col copyright">
+        Securities and Exchange Commission @ 2026
+      </div>
+
+    </div>

@@ -1,4 +1,5 @@
-<?php
+
+<?php /*
 if(!defined('OSTCLIENTINC')) die('Access Denied!');
 $info=array();
 if($thisclient && $thisclient->isValid()) {
@@ -29,9 +30,9 @@ if ($info['topicId'] && ($topic=Topic::lookup($info['topicId']))) {
         $forms[] = $F->getForm();
     }
 }
-
+*/
 ?>
-<style>
+    <style>
 /* Base look like Google search bar */
 .select2-container--default .select2-selection--single {
     background-color: #fff;
@@ -108,37 +109,43 @@ if ($info['topicId'] && ($topic=Topic::lookup($info['topicId']))) {
     color: #1967d2;
 }
 </style>
+
 <div style="margin-top:120px"></div> 
 <div class="row">
 <div class="col-md-12">    
-<h1><?php echo __('Open a New Ticket');?></h1>
-<p><?php echo __('Please fill in the form below to open a new ticket.');?></p>
+<h1><?php /* echo __('Open a New Ticket'); */ ?></h1>
+<h1><?php echo 'Open a New Ticket'?></h1>
+<p><?php echo 'Please fill in the form below to open a new ticket.'?></p>
 <form id="ticketForm" method="post" action="open.php" enctype="multipart/form-data" class="form-horizontal">
-  <?php csrf_token(); ?>
+  <?php /* csrf_token(); */ ?>
   <input type="hidden" name="a" value="open">
   <table>
-<?php
+<?php /*
         if (!$thisclient) {
             $uform = UserForm::getUserForm()->getForm($_POST);
             if ($_POST) $uform->isValid();
             $uform->render(array('staff' => false, 'mode' => 'create'));
         }
-        else { ?>
+        else { */ ?>
       <div class="form-group">
-          <div class="col-sm-1"><label for="email"><?php echo __('Email'); ?>:</label></div><div class="col-sm-11">   
-            <?php
-            echo $thisclient->getEmail(); ?> </div></div>
+          <div class="col-sm-1"><label for="email"><?php echo 'Email'?>:</label></div>
+          <div class="col-sm-11">   
+            <?php echo /* $thisclient->getEmail(); */ "useremail@example.com" ?> 
+          </div>
+      </div>
         <div class="form-group">
-            <div class="col-sm-1"><label for="email"> <?php echo __('Name'); ?>:</label></div><div class="col-sm-11"> <?php
-            echo Format::htmlchars($thisclient->getName()); ?>
-        <?php } ?></div></div>
-	<!--<div class="form-group">
-	<div class="col-sm-1"><label for="address"> <?php echo _('Address'); ?>:</label></div><div class="col-sm-11"><?php?>
-	<div></div>-->
+            <div class="col-sm-1"><label for="email"> <?php echo "Name"; ?>:</label></div><div class="col-sm-11"> <?php
+            echo /* Format::htmlchars($thisclient->getName()); */ "Username" ?>
+        <?php /* } */ ?></div>
+       </div>
+            <!--<div class="form-group">
+            <div class="col-sm-1"><label for="address"> <?php echo 'Address' ?>:</label></div><div class="col-sm-11"><?php?>
+            <div></div>-->
 <hr/>
             <div class="form-group">
-                    <label class="control-label col-sm-2"> <?php echo __('Service*&nbsp;'); ?></label>
+                    <label class="control-label col-sm-2"> <?php echo 'Service*&nbsp;' ?></label>
 <div class="col-sm-10">
+
 <select class="form-control" id="topicId" name="topicId"
     onchange="javascript:
         var data = $(':input[name]', '#dynamic-form').serialize();
@@ -152,8 +159,15 @@ if ($info['topicId'] && ($topic=Topic::lookup($info['topicId']))) {
               $(document.head).append(json.media);
             }
           });">
-    <option value="" selected="selected">&mdash; <?php echo __('Start typing to find your service...');?> &mdash;</option>
-    <?php
+    <option value="" selected="selected">&mdash; <?php echo 'Start typing to find your service...'?> &mdash;</option>
+    <option value="" selected="selected">&mdash; <?php echo 'Start typing to find your service...'?> &mdash;</option>
+    <option value="" selected="selected">&mdash; <?php echo 'Start typing to find your service...'?> &mdash;</option>
+    <option value="" selected="selected">&mdash; <?php echo 'Start typing to find your service...'?> &mdash;</option>
+    <option value="" selected="selected">&mdash; <?php echo 'Start typing to find your service...'?> &mdash;</option>
+    <option value="" selected="selected">&mdash; <?php echo 'Start typing to find your service...'?> &mdash;</option>
+    <option value="" selected="selected">&mdash; <?php echo 'Start typing to find your service...'?> &mdash;</option>
+    <option value="" selected="selected">&mdash; <?php echo 'Start typing to find your service...'?> &mdash;</option>
+    <?php /*
     if ($topics = Topic::getPublicHelpTopics()) {
         foreach ($topics as $id => $name) {
             echo sprintf(
@@ -164,13 +178,14 @@ if ($info['topicId'] && ($topic=Topic::lookup($info['topicId']))) {
             );
         }
     }
-    ?>
+    */ ?>
 </select>
+
 <!-- Initialize Select2 -->
 <script>
 $(document).ready(function() {
     const $select = $('#topicId').select2({
-        placeholder: "<?php echo __('Start typing to find your service...'); ?>",
+        placeholder: " <?php  /*echo __('Start typing to find your service...'); */ ?>",
         allowClear: true,
         width: '100%',
         minimumResultsForSearch: 0 // keep search input visible
@@ -201,42 +216,44 @@ $(document).ready(function() {
     });
 });
  const $select = $('#topicId').select2({
-    placeholder: "<?php echo __('Start typing to find your concern topic'); ?>",
+    placeholder: "<?php /* echo __('Start typing to find your concern topic'); */ ?>",
     allowClear: true,
     width: '100%',
     minimumResultsForSearch: 0
 });
 
 </script>
-    <font class="error"><?php echo $errors['topicId']; ?></font></div></div>
+    <!-- <font class="error"><?php echo /* $errors['topicId' */ "test_error"; ?></font></div></div> -->
 
     <div id="dynamic-form">
-        <?php
+        <?php /*
         $options = array('mode' => 'create');
         foreach ($forms as $form) {
             include(CLIENTINC_DIR . 'templates/dynamic-form.tmpl.php');
-        } ?>
+        } */ ?>
     </div>
 <table>
     <tbody>
-    <?php
+
+    <?php /* 
    if($cfg && $cfg->isCaptchaEnabled() && (!$thisclient || !$thisclient->isValid())) {
         if($_POST && $errors && !$errors['captcha'])
             $errors['captcha']=__('Please re-enter the text again');
-        ?>
-    <div class="captchaRow form-group">
-        <label class="col-sm-2 text-right"><?php echo __('CAPTCHA Text');?></label>
+      */  ?>
+    <!-- <div class="captchaRow form-group">
+        <label class="col-sm-2 text-right"><?php echo 'CAPTCHA Text'?></label>
         <div class="col-sm-10">
             <span class="captcha"><img src="captcha.php" border="0" align="left"></span>
             &nbsp;&nbsp;
             <input id="captcha" type="text" name="captcha" size="6" autocomplete="off">
-            <em><?php echo __('Enter the text shown on the image.');?></em>
-            <font class="error">*&nbsp;<?php echo $errors['captcha']; ?></font>
+            <em><?php /* echo 'Enter the text shown on the image.'*/ ?></em>
+            <font class="error">*&nbsp;<?php echo /* $errors['captcha'] */ "test_error"; ?></font>
         </div>
-    </div>
-    <?php
-    } ?>
-<script>
+    </div> -->
+    <?php /*
+    } */?>
+
+<!-- <script>
 document.addEventListener('DOMContentLoaded', function () {
   const params = new URLSearchParams(window.location.search);
   const topicId = params.get('topicId');
@@ -265,15 +282,15 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }, 400);
 });
-</script>
+</script> -->
 
     </tbody>
   </table>
 <hr/></br></br>
   <p class="buttons" style="text-align:center;">
-        <input class="btn btn-success" type="submit" value="<?php echo __('Create Ticket');?>">
-        <input class="btn btn-warning" type="reset" name="reset" value="<?php echo __('Reset');?>">
-        <input class="btn btn-danger" type="button" name="cancel" value="<?php echo __('Cancel'); ?>" onclick="javascript:
+        <input class="btn btn-success" type="submit" value="<?php echo 'Create Ticket' ?> ">
+        <input class="btn btn-warning" type="reset" name="reset" value="<?php echo 'Reset' ?>">
+        <input class="btn btn-danger" type="button" name="cancel" value="<?php echo 'Cancel' ?>" onclick="javascript:
             $('.richtext').each(function() {
                 var redactor = $(this).data('redactor');
                 if (redactor && redactor.opts.draftDelete)

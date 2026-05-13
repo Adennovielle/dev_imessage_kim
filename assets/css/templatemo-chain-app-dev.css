@@ -1784,21 +1784,21 @@ PopUp
   background: #fff;
 }
 
-.btn {
+/* .btn {
   padding: 10px 20px;
   background: #0a7f65;
   color: #fff;
   transition: all 0.3s;
-}
+} */
 
 .btn_red {
   background: #0a7f65;
   color: #fff;
 }
 
-.btn:hover {
+/* .btn:hover {
   background: #e4e4e2;
-}
+} */
 
 .btn_red:hover {
   color: #2a2a2a;

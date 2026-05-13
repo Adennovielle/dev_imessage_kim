@@ -1,4 +1,6 @@
+
 <?php
+/*
 $url = $_SERVER['REQUEST_URI'];
 
 if ($url == '/' || $url == '/index.php' || $url == '/index' || $url == '/main') 
@@ -25,7 +27,7 @@ else {
 
     vim: expandtab sw=4 ts=4 sts=4:
 **********************************************************************/
-if(!strcasecmp(basename($_SERVER['SCRIPT_NAME']),basename(__FILE__))) die('kwaheri rafiki!');
+/*if(!strcasecmp(basename($_SERVER['SCRIPT_NAME']),basename(__FILE__))) die('kwaheri rafiki!');
 
 $thisdir=str_replace('\\', '/', dirname(__FILE__)).'/';
 
@@ -40,7 +42,7 @@ if (!Validator::check_acl('client'))
     die(__('Access Denied'));
 
 /*Some more include defines specific to client only */
-define('CLIENTINC_DIR',INCLUDE_DIR.'client/');
+/*define('CLIENTINC_DIR',INCLUDE_DIR.'client/');
 define('OSTCLIENTINC',TRUE);
 
 define('ASSETS_PATH',ROOT_PATH.'assets/default/');
@@ -54,7 +56,7 @@ if (!in_array(strtolower(basename($_SERVER['SCRIPT_NAME'])), array('logo.php','f
 
 /* include what is needed on client stuff */
 
-require_once(INCLUDE_DIR.'class.client.php');
+/*require_once(INCLUDE_DIR.'class.client.php');
 require_once(INCLUDE_DIR.'class.ticket.php');
 require_once(INCLUDE_DIR.'class.dept.php');
 
@@ -82,7 +84,7 @@ if($thisclient && $thisclient->getId() && $thisclient->isValid()){
 
 /******* CSRF Protectin *************/
 // Enforce CSRF protection for POSTS
-if ($_POST  && !$ost->checkCSRFToken()) {
+/*if ($_POST  && !$ost->checkCSRFToken()) {
     Http::redirect('index.php');
     //just incase redirect fails
     die('Action denied (400)!');
@@ -92,7 +94,7 @@ if ($_POST  && !$ost->checkCSRFToken()) {
 $ost->addExtraHeader('<meta name="csrf_token" content="'.$ost->getCSRFToken().'" />');
 
 /* Client specific defaults */
-define('PAGE_LIMIT', DEFAULT_PAGE_LIMIT);
+/*define('PAGE_LIMIT', DEFAULT_PAGE_LIMIT);
 
 require(INCLUDE_DIR.'class.nav.php');
 $nav = new UserNav($thisclient, 'home');
@@ -104,4 +106,7 @@ if (!$exempt && $thisclient && ($acct = $thisclient->getAccount())
     require('profile.php'); //profile.php must request this file as require_once to avoid problems.
     exit;
 }
+    */
+
+define('CLIENTINC_DIR', 'C:/wamp64/www/dev_imessage_kim_2/include/client/');
 ?>

@@ -1,3 +1,5 @@
+<?php
+/*
 </div>
 </div>
 <?php if (!isset($_SERVER['HTTP_X_PJAX'])) { ?>
@@ -75,3 +77,10 @@ if ($thisstaff
 </body>
 </html>
 <?php } # endif X_PJAX ?>
+*/
+
+echo "This is footer.inc.php";
+?>
+
+
+
