@@ -1,4 +1,5 @@
-<?php
+<?php /*
+// echo "test"; exit;
 $title=($cfg && is_object($cfg) && $cfg->getTitle())
     ? $cfg->getTitle() : 'iMessage :: '.__('Ticket System');
 $signin_url = ROOT_PATH . "view.php"
@@ -224,4 +225,77 @@ if ($cfg && $cfg->isKnowledgebaseEnabled()) { ?>
             <div class="alert alert-info"><?php echo $msg; ?></div>
          <?php }elseif($warn) { ?>
             <div class="alert alert-warning"><?php echo $warn; ?></div>
-         <?php } ?>
+         <?php } */ ?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Securities and Exchange Commission</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!--
+
+TemplateMo 570 Chain App Dev
+
+https://templatemo.com/tm-570-chain-app-dev
+
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+    <link rel="stylesheet" href="assets/css/adolf-css.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+
+<body style="padding-top: 100px;">
+
+<!-- ================= HEADER UI ONLY ================= -->
+<header class=" mt-0 ">
+
+    <div class="container">
+
+        <!-- LOGO -->
+        <nav>
+
+            <a href="index.php" class="logo">
+                <img src="assets/images/logo.png" alt="Logo" height="100" width="150">
+            </a>
+
+            <!-- NAVIGATION (STATIC) -->
+            <ul class="nav">
+
+                <li><a href="index.php" class="active">Home</a></li>
+                <li><a href="#">Open A New Ticket</a></li>
+                <li><a href="#">Ticket (0)</a></li>
+                <li><a href="#">Services By Department</a></li>
+
+                <!-- AUTH BUTTONS (STATIC) -->
+                <li>
+                    <a href="#" class="signin-btn"> 
+                        <i class="fa fa-sign-in-alt"></i> Sign In
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+</header>
+</body>
+</html>

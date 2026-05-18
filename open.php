@@ -101,7 +101,9 @@
     require(CLIENTINC_DIR.'footer.inc.php');
 
     */
+
     require('client.inc.php');
+    require(CLIENTINC_DIR.'header.inc.php');
     require(CLIENTINC_DIR.'open.inc.php');
     require(CLIENTINC_DIR.'footer.inc.php');
     
