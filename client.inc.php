@@ -44,7 +44,6 @@ if (!Validator::check_acl('client'))
 /*Some more include defines specific to client only */
 /*define('CLIENTINC_DIR',INCLUDE_DIR.'client/');
 define('OSTCLIENTINC',TRUE);
-
 define('ASSETS_PATH',ROOT_PATH.'assets/default/');
 
 //Check the status of the HelpDesk.

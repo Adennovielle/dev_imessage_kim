@@ -52,7 +52,7 @@ define('DEFAULT_PAGE_LIMIT', $cfg->getPageSize()?$cfg->getPageSize():25);
 
 #Cleanup magic quotes crap.
 if(function_exists('get_magic_quotes_gpc') && get_magic_quotes_gpc()) {
-$_POST=Format::strip_slashes($_POST);
+$_POST=Format::strip_slashes($_POST);.
 $_GET=Format::strip_slashes($_GET);
 $_REQUEST=Format::strip_slashes($_REQUEST);
 }

@@ -148,9 +148,9 @@ https://templatemo.com/tm-570-chain-app-dev
         <div class="user_login">
            <form action="view.php">
 
-     		<button id="includeButton" class="btn btn-lg btn-block btn-primary"
-              type="submit"><i class="fa fa-lock me-2"></i> Sign in with eSecure</button>
-	    </form>
+     		      <button id="includeButton" class="btn btn-lg btn-block btn-primary"
+                type="submit"><i class="fa fa-lock me-2"></i> Sign in with eSecure</button>
+	        </form>
         </div>
 
         <!-- Register Form -->
@@ -228,7 +228,9 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>
         <hr>
           <div class="login-btn-box">
-          <button id="login-btn">LOGIN WITH ESECURE <img src="assets/images/login.png" alt=""></button>
+          <button id="login-btn" onclick="window.location.href='login.php'">
+    LOGIN WITH ESECURE <img src="assets/images/login.png" alt="">
+</button>
           </div>
       </div>
     </div>

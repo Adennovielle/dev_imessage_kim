@@ -265,7 +265,7 @@ https://templatemo.com/tm-570-chain-app-dev
 <body style="padding-top: 100px;">
 
 <!-- ================= HEADER UI ONLY ================= -->
-<header class=" mt-0 ">
+<header class="mt-0 d-flex"  id="header" >
 
     <div class="container">
 
@@ -277,7 +277,7 @@ https://templatemo.com/tm-570-chain-app-dev
             </a>
 
             <!-- NAVIGATION (STATIC) -->
-            <ul class="nav">
+            <ul class="nav "  >
 
                 <li><a href="index.php" class="active">Home</a></li>
                 <li><a href="#">Open A New Ticket</a></li>
@@ -285,17 +285,68 @@ https://templatemo.com/tm-570-chain-app-dev
                 <li><a href="#">Services By Department</a></li>
 
                 <!-- AUTH BUTTONS (STATIC) -->
-                <li>
-                    <a href="#" class="signin-btn"> 
-                        <i class="fa fa-sign-in-alt"></i> Sign In
+                <li class="last-child">
+                    <a href="#" class="signin-btn" > 
+                        <i class="fa fa-sign-in-alt"  ></i> Sign In
                     </a>
                 </li>
+            <img style="display: none;" class="hamburger-close-menu hamburger-menu" src="./assets/images/close-menu.png" alt="Hamburger Menu">
 
             </ul>
 
+            <div class="hamburger-menu-box">
+                <img class="hamburger-menu" src="./assets/images/hamburger-menu.png" alt="Hamburger Menu">
+            </div>
         </nav>
 
     </div>
 </header>
 </body>
 </html>
+<script>
+function updateMenuIcon() {
+    const hamburgerIcon = document.querySelector(".hamburger-menu-box");
+    const hamburgerCloseMenu = document.querySelector(".hamburger-close-menu");
+    const nav = document.querySelector(".nav");
+
+    if (window.innerWidth > 1000) {
+        hamburgerIcon.style.display = "none";
+        hamburgerCloseMenu.style.display = "none";
+        nav.classList.remove("open");
+    } else {
+        hamburgerIcon.style.display = "flex";
+
+         hamburgerIcon.style.display = "flex";
+        hamburgerCloseMenu.style.display = "flex";
+    }
+}
+function toggleMenu() {
+    const hamburgerIcon = document.querySelector(".hamburger-menu-box");
+    const hamburgerCloseMenu = document.querySelector(".hamburger-close-menu");
+
+
+    hamburgerIcon.addEventListener("click", () => {
+        const nav = document.querySelector(".nav");
+        nav.classList.toggle("open");
+        if (nav.classList.contains("open")) {
+            hamburgerIcon.src = "./assets/images/close-menu.png";
+        } else {
+            hamburgerIcon.src = "./assets/images/hamburger-menu.png";
+        }
+         hamburgerCloseMenu.style.display = "block";
+    });
+
+    hamburgerCloseMenu.addEventListener("click", () => {
+
+        const nav = document.querySelector(".nav");
+        nav.classList.toggle("open");
+
+    });
+}
+
+// run on load
+toggleMenu();
+// run on resize
+window.addEventListener("resize", updateMenuIcon);
+</script>
+

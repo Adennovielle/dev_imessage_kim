@@ -1,4 +1,4 @@
-<?php
+<?php 
 /*********************************************************************
     login.php
 
@@ -17,7 +17,7 @@
     vim: expandtab sw=4 ts=4 sts=4:
 **********************************************************************/
 //include_once('keycloak.php');
-
+/*
 require_once('client.inc.php');
 if(!defined('INCLUDE_DIR')) die('Fatal Error');
 define('CLIENTINC_DIR',INCLUDE_DIR.'client/');
@@ -156,4 +156,13 @@ require CLIENTINC_DIR.'header.inc.php';
 echo '<div style="margin-top:150px"></div>';
 require CLIENTINC_DIR.$inc;
 require CLIENTINC_DIR.'footer.inc.php';
+
+*/
+
+
+require('client.inc.php');
+require CLIENTINC_DIR.'header.inc.php';
+require CLIENTINC_DIR.'login.inc.php';
+require CLIENTINC_DIR.'footer.inc.php';
+
 ?>

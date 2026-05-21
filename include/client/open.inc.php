@@ -41,25 +41,48 @@ https://templatemo.com/tm-570-chain-app-dev
                     
                 <h2 class="text-success bg-secondary" style="--bs-bg-opacity: .1;" >Open a New Ticket</h2>
                 <div class="user-info d-flex flex-column gap-2 mb-4">
-                    <h4>Please fill in the form below to open a new ticket</h4> 
-                <p>Email: user@example.com
+                    <p>Please fill in the form below to open a new ticket</p> 
+                <p><span class="fw-bold">Email:</span>  user@example.com
                     </p> 
-                    <p>Name: John Doe</p>
+                    <p><span class="fw-bold"> Name:</span> John Doe</p>
                 </div>
                 <div class="">
                 <div style="display: flex; align-items: center; gap: 10px;" class="input-box" >
                     <label for="searchInput" style="font-weight: bolder; display: flex;">Search <span class="required">*</span></label>
-                    <input type="text" id="searchInput" autocomplete="off" placeholder="Start typing to find your service...">
+                    <!-- <input type="text" id="searchInput" autocomplete="off" placeholder="Start typing to find your service..."> -->
+                     <input type="text" class="form-control" id="searchInput"   placeholder="Start typing to find your service...">
                 </div>
                 <div class="results" id="results"></div> 
                 </div>
 
-                <div class="d-flex justify-content-center">
+              
+                <div class="dynamic-form">
+                    <form>
+                        <h2 class="form-title border-bottom border-warning border-5 bg-dark text-warning" >Data Correction - Company Not Found</h2>
+                         <div class="d-flex mb-4">
+                            <label for="registrationNum" class="flex: 2;">SEC Registration No. <span class="text-danger me-2">*</span></label>
+                            <input type="text" id="registrationNum" name="registrationNum" class="flex-fill p-2 form-control">
+                         </div>
+                         <div class="d-flex mb-4">
+                            <label for="registrationNum">Company Name <span class="text-danger me-2">*</span></label>
+                            <input type="text" id="companyName" name="registrationNum" class="flex-fill p-2 form-control">
+                         </div>
+                         <div class="d-flex mb-4">
+                            <label for="copyOfCertificate">Upload Copy of latest Certificate of Registration <span class="text-danger me-2">*</span></label>
+                            <label class="upload-label" for="copyOfCertificate">Drag files here or <span class="text-primary text-decoration-underline">Choose File</span> </label>
+                            <input type="file" id="copyOfCertificate" name="copyOfCertificate" class="flex-fill p-2 form-control visually-hidden">
+                         </div>
+                         <div class="mb-3">
+  
+</div>
+              <div class="d-flex justify-content-center align-items-center ">
                 <p class="buttons">
                     <input class="btn btn-success" type="submit" value="Create Ticket">
                     <input class="btn btn-warning" type="reset" name="reset" value="Reset">
                     <input class="btn btn-danger" type="button" name="cancel" value="Cancel" onclick="javascript:window.location.href='index.php';">
                 </p>
+                </div>
+                    </form>
                 </div>
         </div>
     </div>
