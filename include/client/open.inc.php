@@ -50,7 +50,7 @@ https://templatemo.com/tm-570-chain-app-dev
                 <div style="display: flex; align-items: center; gap: 10px;" class="input-box" >
                     <label for="searchInput" style="font-weight: bolder; display: flex;">Search <span class="required">*</span></label>
                     <!-- <input type="text" id="searchInput" autocomplete="off" placeholder="Start typing to find your service..."> -->
-                     <input type="text" class="form-control" id="searchInput"   placeholder="Start typing to find your service...">
+                     <input type="text" class="form-control ps-3 pe-2" id="searchInput"   placeholder="Start typing to find your service...">
                 </div>
                 <div class="results" id="results"></div> 
                 </div>
@@ -64,11 +64,11 @@ https://templatemo.com/tm-570-chain-app-dev
                             <input type="text" id="registrationNum" name="registrationNum" class="flex-fill p-2 form-control">
                          </div>
                          <div class="d-flex mb-4">
-                            <label for="registrationNum">Company Name <span class="text-danger me-2">*</span></label>
-                            <input type="text" id="companyName" name="registrationNum" class="flex-fill p-2 form-control">
+                            <label for="companyName">Company Name <span class="text-danger me-2">*</span></label>
+                            <input type="text" id="companyName" name="companyName" class="flex-fill p-2 form-control">
                          </div>
                          <div class="d-flex mb-4">
-                            <label for="copyOfCertificate">Upload Copy of latest Certificate of Registration <span class="text-danger me-2">*</span></label>
+                            <label for="copyOfCertificate">Upload Copy of latest Certificate of Registration nicole i love you <span class="text-danger me-2">*</span></label>
                             <label class="upload-label" for="copyOfCertificate">Drag files here or <span class="text-primary text-decoration-underline">Choose File</span> </label>
                             <input type="file" id="copyOfCertificate" name="copyOfCertificate" class="flex-fill p-2 form-control visually-hidden">
                          </div>

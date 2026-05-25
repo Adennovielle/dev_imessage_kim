@@ -280,9 +280,9 @@ https://templatemo.com/tm-570-chain-app-dev
             <ul class="nav "  >
 
                 <li><a href="index.php" class="active">Home</a></li>
-                <li><a href="#">Open A New Ticket</a></li>
-                <li><a href="#">Ticket (0)</a></li>
-                <li><a href="#">Services By Department</a></li>
+                <li><a href="open.php">Open A New Ticket</a></li>
+                <li><a href="open.php">Ticket (0)</a></li>
+                <li><a href="bydepartment.php">Services By Department</a></li>
 
                 <!-- AUTH BUTTONS (STATIC) -->
                 <li class="last-child">

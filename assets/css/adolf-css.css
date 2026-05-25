@@ -391,7 +391,12 @@ a {
   border: 1px solid #ccc;
   outline: none;
 }
-
+.search-box .search-icon {
+  /* margin-left: -40px; */
+  /* cursor: pointer; */
+  left: 0px;
+  border: 4px solid rgb(5, 191, 211);
+}
 .results {
   background: white;
   border-radius: 10px;
@@ -452,7 +457,9 @@ a {
 }
 .dynamic-form label {
   /* border: 4px solid rgb(219, 212, 10); */
-  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 290px;
   cursor: pointer;
 }
 .dynamic-form .upload-label {
@@ -711,5 +718,39 @@ header ul .hamburger-close-menu {
 .login i {
 }
 /* END OF LOGIN CSS */
+
+/* BY DEPARTMENT CSS  */
+#services {
+  /* border: 4px solid rgb(219, 10, 10); */
+  overflow: hidden;
+}
+
+#services::after {
+  display: none;
+}
+#services::before {
+  display: none;
+}
+#services .container {
+  /* border: 4px solid rgb(24, 170, 5); */
+  /* height: 250px; */
+}
+#services .card-row {
+  /* border: 4px solid rgb(16, 5, 170); */
+  /* height: 100%; */
+
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, 150px); */
+}
+#services .service-item {
+  /* border: 4px solid rgb(170, 5, 5); */
+  border-radius: 12px;
+  height: 250px;
+}
+#services .service-item:hover {
+  transform: translateY(-10px);
+}
+
+/* END OF BY DEPARTMENT CSS */
 
 /* END OF CUSTOM CSS */

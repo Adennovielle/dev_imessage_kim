@@ -13,6 +13,7 @@
 
     vim: expandtab sw=4 ts=4 sts=4:
 **********************************************************************/
+/*
 require('client.inc.php');
 define('SOURCE','Web'); //Ticket source.
 $ticket = null;
@@ -94,4 +95,12 @@ else {
     require(CLIENTINC_DIR.'dep.inc.php');
 }
 require(CLIENTINC_DIR.'footer.inc.php');
-?>
+*/
+
+    // echo "Hello World"; exit;
+    require('client.inc.php');
+    require(CLIENTINC_DIR.'header.inc.php');
+    require(CLIENTINC_DIR.'dep.inc.php');
+    require(CLIENTINC_DIR.'footer.inc.php');
+    ?>
+
