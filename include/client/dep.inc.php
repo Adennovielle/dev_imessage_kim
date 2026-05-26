@@ -460,7 +460,7 @@ https://templatemo.com/tm-570-chain-app-dev
       <div class="row card-row">
         <div class="col-lg-3 card-item">
           <div class="service-item first-service">
-            <div class="icon"></div>
+            <div class="icon icon-office"> <img src="./assets/images/icon-office.png" alt=""> </div>
             <h4>Office of the Commission Secretary</h4>
             <p style ="text-align:justify"></p>
             <div class="text-button" style>
@@ -470,7 +470,7 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>
         <div class="col-lg-3">
           <div class="service-item second-service">
-            <div class="icon"></div>
+            <div class="icon icon-office"> <img src="./assets/images/icon-office.png" alt=""> </div>
             <h4>Office of the General Counsel</h4>
             <p></p>
             <div class="text-button">
@@ -480,7 +480,7 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>
         <div class="col-lg-3">
           <div class="service-item third-service">
-            <div class="icon"></div>
+            <div class="icon icon-office"> <img src="./assets/images/icon-office.png" alt=""> </div>
             <h4>Office of the General Accountant</h4>
             <p></p>
             <div class="text-button">
@@ -490,7 +490,7 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>
         <div class="col-lg-3">
           <div class="service-item fourth-service">
-            <div class="icon"></div>
+            <div class="icon"><img src="./assets/images/icon-licensing.png" alt=""></div>
             <h4>Company Registration and Monitoring Department</h4>
             <p></p>
             <div class="text-button">
@@ -505,7 +505,7 @@ https://templatemo.com/tm-570-chain-app-dev
       <div class="row card-row"  >
         <div class="col-lg-3">
           <div class="service-item first-service">
-            <div class="icon"></div>
+            <div class="icon"><img src="./assets/images/icon-markets.png" alt=""></div>
             <h4>Markets and Securities Regulation Department</h4>
             <p style ="text-align:justify"></p>
             <div class="text-button" style>
@@ -515,7 +515,7 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>
         <div class="col-lg-3">
           <div class="service-item second-service">
-            <div class="icon"></div>
+            <div class="icon icon-finance"></div>
             <h4>Corporate Governance and Finance Department</h4>
             <p></p>
             <div class="text-button">
@@ -524,8 +524,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item third-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon"><img src="./assets/images/icon-shield.png" alt=""></div>
             <h4>Enforcement and Investor Protection Department</h4>
             <p></p>
             <div class="text-button">
@@ -534,8 +534,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item fourth-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon"><img src="./assets/images/icon-markets.png" alt=""></div>
             <h4>Economic Research and Training Department</h4>
             <p></p>
             <div class="text-button">
@@ -550,7 +550,7 @@ https://templatemo.com/tm-570-chain-app-dev
       <div class="row card-row"  >
         <div class="col-lg-3">
           <div class="service-item first-service">
-            <div class="icon"></div>
+            <div class="icon icon-pc"></div>
             <h4>Information and Communications Technology Department</h4>
             <p style ="text-align:justify"></p>
             <div class="text-button" style>
@@ -560,7 +560,7 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>
         <div class="col-lg-3">
           <div class="service-item second-service">
-            <div class="icon"></div>
+            <div class="icon icon-shakehand"></div>
             <h4>Human Resource Department</h4>
             <p></p>
             <div class="text-button">
@@ -570,7 +570,7 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>
         <div class="col-lg-3">
           <div class="service-item third-service">
-            <div class="icon"></div>
+            <div class="icon icon-finance"></div>
             <h4>Financing and Lending Companies Department</h4>
             <p></p>
             <div class="text-button">
@@ -580,7 +580,7 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>
         <div class="col-lg-3">
           <div class="service-item fourth-service">
-            <div class="icon"></div>
+            <div class="icon icon-finance"></div>
             <h4>Financial Management Department</h4>
             <p></p>
             <div class="text-button">
@@ -595,7 +595,7 @@ https://templatemo.com/tm-570-chain-app-dev
       <div class="row card-row"  >
         <div class="col-lg-3">
           <div class="service-item first-service">
-            <div class="icon"></div>
+            <div class="icon icon-finance"></div>
             <h4>Financial Analysis and Audit Department</h4>
             <p style ="text-align:justify"></p>
             <div class="text-button" style>
@@ -605,7 +605,7 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>
         <div class="col-lg-3">
           <div  class="service-item  second-service">
-            <div class="icon"></div>
+            <div class="icon"><img src="./assets/images/icon-management.png" alt=""></div>
             <h4>Management Services Department</h4>
             <p></p>
             <div class="text-button">
@@ -615,7 +615,7 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>
         <div class="col-lg-3">
           <div class="service-item third-service">
-            <div class="icon"></div>
+            <div class="icon icon-shakehand"></div>
             <h4>External Affairs Department</h4>
             <p></p>
             <div class="text-button">
@@ -638,8 +638,8 @@ https://templatemo.com/tm-570-chain-app-dev
 <div class="container ">
       <div class="row card-row">
         <div class="col-lg-3">
-          <div class="service-item first-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Laoag Extension Office</h4>
             <p style ="text-align:justify"></p>
             <div class="text-button" style>
@@ -648,8 +648,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item second-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Baguio Extension Office</h4>
             <p></p>
             <div class="text-button">
@@ -658,8 +658,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item third-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Tarlac Extension Office</h4>
             <p></p>
             <div class="text-button">
@@ -668,8 +668,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
       <div class="col-lg-3">
-          <div class="service-item third-service">
-            <div class="icon"></div>
+          <div class="service-item">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Ilagan Extension Office</h4>
             <p></p>
             <div class="text-button">
@@ -684,8 +684,8 @@ https://templatemo.com/tm-570-chain-app-dev
 <div class="container ">
       <div class="row card-row">
         <div class="col-lg-3">
-          <div class="service-item first-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Lipa Extension Office</h4>
             <p style ="text-align:justify"></p>
             <div class="text-button" style>
@@ -694,8 +694,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item second-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Legazpi Extension Office</h4>
             <p></p>
             <div class="text-button">
@@ -704,8 +704,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item third-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Iloilo Extension Office</h4>
             <p></p>
             <div class="text-button">
@@ -714,8 +714,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
  <div class="col-lg-3">
-          <div class="service-item third-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Bacolod Extension Office</h4>
             <p></p>
             <div class="text-button">
@@ -731,8 +731,8 @@ https://templatemo.com/tm-570-chain-app-dev
 <div class="container ">
       <div class="row card-row">
         <div class="col-lg-3">
-          <div class="service-item first-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Cebu Extension Office</h4>
             <p style ="text-align:justify"></p>
             <div class="text-button" style>
@@ -741,8 +741,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item second-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Tacloban Extension Office</h4>
             <p></p>
             <div class="text-button">
@@ -751,8 +751,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item third-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Zamboanga Extension Office</h4>
             <p></p>
             <div class="text-button">
@@ -761,8 +761,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
  <div class="col-lg-3">
-          <div class="service-item third-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Cagayan De Oro Extension Office</h4>
             <p></p>
             <div class="text-button">
@@ -778,8 +778,8 @@ https://templatemo.com/tm-570-chain-app-dev
 <div class="container ">
       <div class="row card-row">
         <div class="col-lg-3">
-          <div class="service-item first-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Butuan Extension Office</h4>
             <p style ="text-align:justify"></p>
             <div class="text-button" style>
@@ -788,8 +788,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item second-service">
-            <div class="icon"></div>
+          <div class="service-item ">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Davao Extension Office</h4>
             <p></p>
             <div class="text-button">
@@ -798,8 +798,8 @@ https://templatemo.com/tm-570-chain-app-dev
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item third-service">
-            <div class="icon"></div>
+          <div class="service-item">
+            <div class="icon building-icon"><img src="./assets/images/icon-building.png" alt="sample"></div>
             <h4>Koronadal Extension Office</h4>
             <p></p>
             <div class="text-button">

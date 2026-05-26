@@ -14,6 +14,7 @@
 
     vim: expandtab sw=4 ts=4 sts=4:
 **********************************************************************/
+/* 
 require('secure.inc.php');
 if(!is_object($thisclient) || !$thisclient->isValid()) die('Access denied'); //Double check again.
 
@@ -144,9 +145,15 @@ if($ticket && $ticket->checkUserAccess($thisclient)) {
     $nav->setActiveNav('new');
     $inc='open.inc.php';
 }
-include(CLIENTINC_DIR.'header.inc.php');
-echo '<div style="margin-top:150px"></div>';
-include(CLIENTINC_DIR.$inc);
-print $tform->getMedia();
-include(CLIENTINC_DIR.'footer.inc.php');
+
+*/
+    require('client.inc.php');
+    include(CLIENTINC_DIR.'header.inc.php');
+    // include(CLIENTINC_DIR.'tickets.inc.php');
+    include('tickets.ui.php');
+    include(CLIENTINC_DIR.'footer.inc.php');
+// echo "this is tickets.php"; exit;
+// echo '<div style="margin-top:150px"></div>';
+// include(CLIENTINC_DIR.$inc);
+// print $tform->getMedia();
 ?>

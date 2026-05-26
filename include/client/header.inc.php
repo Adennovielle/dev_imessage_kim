@@ -281,7 +281,7 @@ https://templatemo.com/tm-570-chain-app-dev
 
                 <li><a href="index.php" class="active">Home</a></li>
                 <li><a href="open.php">Open A New Ticket</a></li>
-                <li><a href="open.php">Ticket (0)</a></li>
+                <li><a href="tickets.php">Ticket (0)</a></li>
                 <li><a href="bydepartment.php">Services By Department</a></li>
 
                 <!-- AUTH BUTTONS (STATIC) -->

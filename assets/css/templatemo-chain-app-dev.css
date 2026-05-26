@@ -1128,38 +1128,31 @@ Services Style
   color: #fff;
 }
 
-.first-service .icon {
-  background-image: url(../images/service-icon-01.png);
+.service-item .icon-documents {
+  background-image: url(../images/icon-documents.png);
 }
 
-.first-service:hover .icon {
-  background-image: url(../images/service-icon-hover-01.png);
+.service-item .icon-pc {
+  background-image: url(../images/icon-pc.png);
 }
 
-.second-service .icon {
-  background-image: url(../images/service-icon-02.png);
+.service-item .icon-finance {
+  background-image: url(../images/icon-finance.png);
 }
 
-.second-service:hover .icon {
-  background-image: url(../images/service-icon-hover-02.png);
+.service-item .icon-shakehand {
+  background-image: url(../images/icon-shakehand.png);
+}
+.service-item .icon-office {
+  background-image: url(../images/icon-office.png);
 }
 
-.third-service .icon {
-  background-image: url(../images/service-icon-03.png);
+.service-item .building-icon {
+  /* background-image: url("../images/icon-building.png"); */
 }
-
-.third-service:hover .icon {
-  background-image: url(../images/service-icon-hover-03.png);
+.service-item:hover .icon {
+  filter: brightness(0) invert(1);
 }
-
-.fourth-service .icon {
-  background-image: url(../images/service-icon-04.png);
-}
-
-.fourth-service:hover .icon {
-  background-image: url(../images/service-icon-hover-04.png);
-}
-
 #services .service-item:hover {
   background-image: url(../images/service-bg.jpg);
   background-position: right top;
